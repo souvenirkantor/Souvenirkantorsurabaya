@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://brand-gift.vercel.app/sitemap.xml
+Sitemap: https://souvenirkantorsurabaya.web.id/sitemap.xml
