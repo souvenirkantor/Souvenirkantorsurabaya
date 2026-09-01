@@ -702,4 +702,16 @@
        <changefreq>monthly</changefreq>
        <priority>0.8</priority>
     </url>
+    <url>
+       <loc>https://souvenirkantorsurabaya.web.id/ciri-souvenir-acara-kantor-berkesan-surabaya.html</loc>
+       <lastmod>2026-09-01</lastmod>
+       <changefreq>monthly</changefreq>
+       <priority>0.8</priority>
+    </url>
+    <url>
+       <loc>https://souvenirkantorsurabaya.web.id/ragam-souvenir-acara-kantor-favorit-surabaya.html</loc>
+       <lastmod>2026-09-01</lastmod>
+       <changefreq>monthly</changefreq>
+       <priority>0.8</priority>
+    </url>
 </urlset>
