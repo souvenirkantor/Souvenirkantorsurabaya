@@ -65,7 +65,9 @@
 
   <!-- Main CSS File -->
 
+  <link rel="preload" href="assets/css/main.css" as="style">
   <link href="assets/css/main.css" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/img/hero.webp">
 
   <!-- Structured Data (Schema.org JSON-LD) -->
 
@@ -201,13 +203,13 @@
           <li><a href="blog.html">Artikel</a></li>
           <li><a href="https://wa.me/6288989643555">Hubungi Kami</a></li>
         </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list" aria-label="Toggle Mobile Menu" role="button" tabindex="0"></i>
       </nav>
 
       <div class="header-social-links">
-        <a href="https://www.instagram.com/corporategifts.id" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="https://www.threads.com/@corporategifts.id" class="threads"><i class="bi bi-threads"></i></a>
-        <a href="https://wa.me/6288989643555" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
+        <a href="https://www.instagram.com/corporategifts.id" class="instagram" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.threads.com/@corporategifts.id" class="threads" aria-label="Threads"><i class="bi bi-threads"></i></a>
+        <a href="https://wa.me/6288989643555" class="whatsapp" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
       </div>
 
     </div>
@@ -237,7 +239,7 @@
           <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
 
             <div class="media-block">
-              <img src="assets/img/hero.webp" fetchpriority="high" alt="Creative Digital Solutions" class="img-fluid">
+              <img src="assets/img/hero.webp" fetchpriority="high" decoding="async" alt="Creative Digital Solutions" class="img-fluid">
               <div class="overlay-content">
                 <div class="stats-item">
                   <span class="number">150+</span>
@@ -295,11 +297,11 @@
             <div class="gallery-grid">
               <div class="gallery-item main-image">
                 <img src="assets/img/about/about.webp" alt="Professional team collaboration" class="img-fluid"
-                  loading="lazy">
+                  loading="lazy" decoding="async">
               </div>
               <div class="gallery-item side-image">
                 <img src="assets/img/about/about2.webp" alt="Creative workspace environment" class="img-fluid"
-                  loading="lazy">
+                  loading="lazy" decoding="async">
               </div>
             </div>
             <div class="experience-badge">
