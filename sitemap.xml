@@ -828,4 +828,16 @@
        <changefreq>monthly</changefreq>
        <priority>0.8</priority>
     </url>
+    <url>
+       <loc>https://souvenirkantorsurabaya.web.id/souvenir-kantor-corporate-premium-b2b.html</loc>
+       <lastmod>2026-09-14</lastmod>
+       <changefreq>monthly</changefreq>
+       <priority>0.8</priority>
+    </url>
+    <url>
+       <loc>https://souvenirkantorsurabaya.web.id/souvenir-kantor-corporate-perusahaan-jakarta.html</loc>
+       <lastmod>2026-09-14</lastmod>
+       <changefreq>monthly</changefreq>
+       <priority>0.8</priority>
+    </url>
 </urlset>
