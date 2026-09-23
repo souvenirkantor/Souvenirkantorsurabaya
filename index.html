@@ -33,31 +33,31 @@
   <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.png">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
 
+  <!-- Preload Critical LCP Image -->
+  <link rel="preload" as="image" href="assets/img/hero.webp" fetchpriority="high">
+
   <!-- Fonts Preconnect -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="dns-prefetch" href="https://fonts.googleapis.com">
 
   <meta charset="utf-8">
-
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta name="theme-color" content="#ffffff">
 
-  <!-- Favicons -->
+  <!-- Optimized Google Fonts (Asynchronous & Display Swap) -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"></noscript>
 
-  <!-- Fonts -->
+  <!-- Non-blocking Stylesheets (Async Preload Pattern) -->
+  <link rel="preload" href="assets/vendor/bootstrap/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"></noscript>
 
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
+  <link rel="preload" href="assets/vendor/bootstrap-icons/bootstrap-icons.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"></noscript>
 
-  <!-- Vendor CSS Files -->
-
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link rel="preload" href="assets/vendor/aos/aos.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link href="assets/vendor/aos/aos.css" rel="stylesheet"></noscript>
 
   <link rel="preload" href="assets/vendor/glightbox/css/glightbox.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"></noscript>
@@ -66,10 +66,8 @@
   <noscript><link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"></noscript>
 
   <!-- Main CSS File -->
-
-  <link rel="preload" href="assets/css/main.css" as="style">
-  <link href="assets/css/main.css" rel="stylesheet">
-  <link rel="preload" as="image" href="assets/img/hero.webp">
+  <link rel="preload" href="assets/css/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link href="assets/css/main.css" rel="stylesheet"></noscript>
 
   <!-- Structured Data (Schema.org JSON-LD) -->
 
@@ -241,7 +239,7 @@
           <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
 
             <div class="media-block">
-              <img src="assets/img/hero.webp" fetchpriority="high" decoding="async" alt="Creative Digital Solutions" class="img-fluid">
+              <img src="assets/img/hero.webp" fetchpriority="high" decoding="async" alt="Vendor Souvenir Kantor Surabaya Terpercaya" class="img-fluid" width="636" height="424">
               <div class="overlay-content">
                 <div class="stats-item">
                   <span class="number">150+</span>
