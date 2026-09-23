@@ -49,10 +49,11 @@
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"></noscript>
 
-  <!-- Non-blocking Stylesheets (Async Preload Pattern) -->
-  <link rel="preload" href="assets/vendor/bootstrap/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"></noscript>
+  <!-- Core CSS Files (Instant visual render, 0s delay, no FOUC) -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
 
+  <!-- Secondary CSS Files (Asynchronous) -->
   <link rel="preload" href="assets/vendor/bootstrap-icons/bootstrap-icons.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"></noscript>
 
@@ -64,10 +65,6 @@
 
   <link rel="preload" href="assets/vendor/swiper/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"></noscript>
-
-  <!-- Main CSS File -->
-  <link rel="preload" href="assets/css/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link href="assets/css/main.css" rel="stylesheet"></noscript>
 
   <!-- Structured Data (Schema.org JSON-LD) -->
 
@@ -224,7 +221,7 @@
 
         <div class="row">
 
-          <div class="col-12" data-aos="fade-down">
+          <div class="col-12">
 
             <div class="hero-header">
               <h1>Vendor <span class="highlight">Souvenir Kantor Surabaya</span> Terpercaya untuk Kebutuhan Perusahaan</h1>
@@ -236,7 +233,7 @@
 
         <div class="row g-4 mt-4">
 
-          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-7">
 
             <div class="media-block">
               <img src="assets/img/hero.webp" fetchpriority="high" decoding="async" alt="Vendor Souvenir Kantor Surabaya Terpercaya" class="img-fluid" width="636" height="424">
@@ -250,7 +247,7 @@
 
           </div><!-- End Media Column -->
 
-          <div class="col-lg-5" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-5">
 
             <div class="info-block">
               <p class="lead-text">Layanan souvenir kantor untuk acara internal, hadiah klien, dan branding perusahaan
@@ -297,11 +294,11 @@
             <div class="gallery-grid">
               <div class="gallery-item main-image">
                 <img src="assets/img/about/about.webp" alt="Professional team collaboration" class="img-fluid"
-                  loading="lazy" decoding="async">
+                  loading="lazy" decoding="async" width="400" height="300">
               </div>
               <div class="gallery-item side-image">
                 <img src="assets/img/about/about2.webp" alt="Creative workspace environment" class="img-fluid"
-                  loading="lazy" decoding="async">
+                  loading="lazy" decoding="async" width="250" height="200">
               </div>
             </div>
             <div class="experience-badge">
