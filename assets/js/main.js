@@ -98,7 +98,7 @@
     if (document.querySelector('.whatsapp-float')) return;
 
     const waLink = document.createElement('a');
-    waLink.href = 'https://wa.me/6288989643555?text=Halo%20CorporateGifts%20ID,%20saya%20ingin%20bertanya%20tentang%20souvenir%20kantor.';
+    waLink.href = 'https://wa.me/6281252225479?text=Halo%20CorporateGifts%20ID,%20saya%20ingin%20bertanya%20tentang%20souvenir%20kantor.';
     waLink.target = '_blank';
     waLink.rel = 'noreferrer noopener';
     waLink.className = 'whatsapp-float d-flex align-items-center justify-content-center';
@@ -214,7 +214,7 @@
         `%0ASubjek: ${encodeURIComponent(subject)}` +
         `%0APesan: ${encodeURIComponent(message)}`;
 
-      window.location.href = `https://wa.me/6288989643555?text=${text}`;
+      window.location.href = `https://wa.me/6281252225479?text=${text}`;
     });
   });
 
