@@ -39,7 +39,7 @@
    </url>
     <url>
        <loc>https://souvenirkantorsurabaya.web.id/blog.html</loc>
-       <lastmod>2026-09-23</lastmod>
+       <lastmod>2026-10-11</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8</priority>
     </url>
@@ -931,4 +931,10 @@
        <changefreq>monthly</changefreq>
        <priority>0.8</priority>
     </url>
+     <url>
+        <loc>https://souvenirkantorsurabaya.web.id/seminar-kit-ramah-lingkungan-korporat.html</loc>
+        <lastmod>2026-10-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+     </url>
 </urlset>
